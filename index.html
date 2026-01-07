@@ -88,7 +88,6 @@
         <b>CorDex grasp prediction network.</b> 
         The network integrates semantic and geometric information from single-view RGB-D input to predict functional dexterous grasps for novel objects. 
         Image and point cloud features are first encoded into pointwise features.
-         <!-- and processed by a transformer.  -->
         To boost performance and computational efficiency, we introduce an importance-aware sampling mechanism that samples points around contact areas. 
         Given the sampled points, a local–global fusion module refines local details and encodes holistic object context through global attention. 
         Finally, a distance matrix between the robot hand and object points is decoded via cross-attention and optimized to obtain the final grasp.
@@ -106,12 +105,12 @@
       </p>
     </div>
     
-    <!-- Start of Failures -->
     <div class="tagline" id="failures">Real-World Execution</div>
     <div class="video-gallery-section" id="gallery-section-failures">
       <div class="video-gallery-container">
         <div class="video-gallery" id="failures">
           <!-- Videos remain here - ADD autoplay -->
+          <video class="gallery-video" src="assets/videos_v2/realworld_setup.m4v" autoplay muted playsinline loop></video>
           <video class="gallery-video" src="assets/videos_v2/exe_drill_1.mov" autoplay muted playsinline loop></video>
           <video class="gallery-video" src="assets/videos_v2/exe_drill_2.mov" autoplay muted playsinline loop></video>
           <video class="gallery-video" src="assets/videos_v2/exe_drill_3.mov" autoplay muted playsinline loop></video>
