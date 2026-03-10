@@ -165,7 +165,7 @@
    .footer{font-size:14px;font-family:'Roboto Mono',monospace;color:#666;margin:80px 0 0;border-top:1px solid #ccc;padding:30px;text-align:center}
    
    /* BIBTEX BOX */
-   .bibtex-code{background:rgba(80,80,80,.8);color:#f1f1f1;padding:20px;border-radius:8px;max-width:1280px;margin:80px auto 0;font-size:14px;box-sizing:border-box}
+  .bibtex-code{background:rgba(80,80,80,.8);color:#f1f1f1;padding:20px;border-radius:8px;max-width:1280px;margin:12px auto 0;font-size:14px;box-sizing:border-box}
    .bibtex-title{font-family:'Courier New',Courier,monospace;font-weight:700;font-size:1.15em;margin:0 0 10px;color:#f1f1f1}
    .bibtex-code pre{white-space:pre-wrap;overflow-wrap:break-word;margin:0}
    .bibtex-code code{font-family:'Courier New',Courier,monospace;overflow-wrap:break-word}
